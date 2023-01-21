@@ -1,0 +1,54 @@
+#container {
+
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    background-image: url("night.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+.time {
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: azure;
+    box-shadow: 2px 3px grey;
+}
+
+#showdate {
+
+  
+    height: 50px;
+    background-color: rgba(19, 5, 148, 0);
+    text-align: center; 
+    font-size: 50px;
+    color: #04d9ff;
+
+}
+
+#showtime {
+
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+    color: #04d9ff;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.cnt {
+    position: absolute;
+    z-index: 1;
+}
